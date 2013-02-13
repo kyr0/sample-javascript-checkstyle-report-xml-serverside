@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="4.3">
+	<file name="src/foo.js">
+		<error line="10" column="6" severity="error" message="Missing semicolon." source="Missing semicolon." />
+		<error line="2" column="0" severity="warning" message="Implied global &apos;define&apos;" source="jshint.implied-globals" />
+	</file>
+</checkstyle>
